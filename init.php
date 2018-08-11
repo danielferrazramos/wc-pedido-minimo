@@ -2,10 +2,11 @@
 /*------------------------------------------------------------------------------------------------------------------
 Plugin Name: WooCommerce Pedido Mínimo
 Description: Plugin para configurar valor mínimo para finalização de pedidos no WooCommerce.
-Version: 1.2.0
+Version: 1.2.1
 Author: Daniel Ferraz Ramos
 Author URI: http://art2web.com.br/plugin-woocommerce-pedido-minimo/
 Text Domain: wc-pedido-minimo
+Domain Path: /inc/languages
 ---------------------------------------------------------------------------------------------------------------------*/
 
 if ( ! defined( 'ABSPATH' ) ) {

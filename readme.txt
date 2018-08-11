@@ -1,10 +1,10 @@
-=== WooCommerce Pedido Mínimo ===
+﻿=== WooCommerce Pedido Mínimo ===
 Contributors: art2web
 Donate link: http://art2web.com.br/doacoes
 Tags: woocommerce, pedido minimo, pedido mínimo, minimum order
 Requires at least: 4.0
-Tested up to: 4.9
-Stable tag: 1.2.0
+Tested up to: 4.9.8
+Stable tag: 1.2.1
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -66,11 +66,15 @@ Este plugin possui licença GPL.
 
 - Tradução Português/Inglês.
 - Alteração no preenchimento do campo de valor no admin. Agora sem máscara e sem símbolo de moeda, utilizando mesmo padrão do campo de valores (como preço de produtos) no WooCommerce.
-- A formação de preços e símbolo da moeda serão exibidos de acordo com o padrão configurado na loja.
+- A formatação de preços e símbolo da moeda serão exibidos de acordo com o padrão configurado na loja.
+
+= 1.2.1 - 2018/08/11 =
+
+- Tradução Espanhol.
+- Correção da condição para pedido mínimo em load-pedido-minimo.php.
 
 
 == Upgrade Notice ==
 
-- Tradução Espanhol.
 
-= 1.2.1 =
+= 1.2.2 =

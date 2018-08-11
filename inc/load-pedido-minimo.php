@@ -8,7 +8,7 @@
 
 			$pedido_minimo_valor = get_option( 'wc-pedido-minimo-valor', false );
 
-	        if( $total_carrinho <= $pedido_minimo_valor ) {
+	        if( $total_carrinho < $pedido_minimo_valor ) {
 				$saldo = wc_price($pedido_minimo_valor - $total_carrinho);
 				$mensagem = '<p>'.esc_html__( 'Você precisa comprar %s para atingir o o valor mínimo da loja.', 'wc-pedido-minimo').'</p></div>';
 
